@@ -1,3 +1,8 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 #page {
     display: flex;
     margin: auto;
@@ -5,43 +10,57 @@
     align-items: center;
 }
 
-#card {
-    background-image: url(../assets/amy-shamblen-uYmf3FX2zHM-unsplash.jpg);
+body {
+    background-image: url(../assets/amy-shamblen-x2lm26Rs2PM-unsplash.jpg);
+    margin: auto;
     background-size: cover;
-    margin: 50px;
+}
+
+#card {
+    background-size: cover;
+    margin: 30px;
     width: 80%;
     height: 100%;
-    border: 5px dashed firebrick;
     display: inline-block;
 }
 
 #content {
     display: flex;
+    gap: 20px;
 }
 
 #picture {
-    width: 25%;
-    height: 100%;
-    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: auto 0px;
 }
 
 #msg {
     display: inline-block;
-    margin-left: 150px;
-    width: 50%;
+    width: 45%;
 }
 
 #title {
-    color: red;
+    color: azure;
     font-size: 50px;
     text-align: center;
     font-family: 'Patrick Hand', cursive;
-
 }
 
 #text {
-    color: black;
+    color: azure;
     font-size: 30px;
-    text-align: left;
+    text-align: justify;
     font-family: 'Patrick Hand', cursive;
+}
+
+footer {
+    color: darkgoldenrod;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
 }
