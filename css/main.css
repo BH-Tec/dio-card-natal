@@ -1,0 +1,47 @@
+#page {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-image: url(../assets/amy-shamblen-uYmf3FX2zHM-unsplash.jpg);
+    background-size: cover;
+    margin: 50px;
+    width: 80%;
+    height: 100%;
+    border: 5px dashed firebrick;
+    display: inline-block;
+}
+
+#content {
+    display: flex;
+}
+
+#picture {
+    width: 25%;
+    height: 100%;
+    margin-top: 80px;
+}
+
+#msg {
+    display: inline-block;
+    margin-left: 150px;
+    width: 50%;
+}
+
+#title {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+#text {
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Patrick Hand', cursive;
+}
